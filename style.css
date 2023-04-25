@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+.arkaplan-yesil{
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    background-color:rgb(0, 168, 132);
+}
+.main-page{
+    height: 931px;
+    width: 1600px;
+    position: relative;
+    background-color: rgb(240,242,245);
+    left:160px;
+    top:20px;
+    display: flex;
+    float: left;
+}
+.main-left{
+    width: 480px;
+    background-color: white;
+    height: 100%;
+}
+.navbar{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(240,242,245);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+}
+.navbar a{
+    margin-right: 2rem;
+}
+.user_img{
+    position: absolute;
+    left: 15px;
+    border-radius: 50px;
+}
+.search{
+    position: relative;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.search input{
+    background-color:rgb(240,242,245);
+    width: 400px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    outline: none;
+    overflow-y: auto;
+}
+.search img{
+    position: absolute;
+    background-color: rgb(240,242,245);
+    left: 21px;
+    top: 16px;
+    width: 40px;
+}
+.search button{
+    height: 30px;
+    width: 40px;
+    cursor: pointer;
+    background-color: rgb(0, 168, 132);
+    border-radius: 20px;
+    position: relative;
+    bottom: 4px;
+}
+.kisiler{
+    width: 480px;
+    height: 810px;
+    overflow-y: auto;
+    position: relative;
+  
+}
+.kisi{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(240,242,245);
+    border-bottom: 0.1px solid gray ;
+}
+.kisi img{
+    margin-left: 10px;
+}
+.kisiler a{
+    text-decoration: none;
+    color: black;
+}
+.icerik{
+    margin-top: 12px;
+    margin-left: 20px;
+}
+.cop{
+    position: relative;
+    left: 20rem;
+    bottom: 1rem;
+    
+
+}
+.main-right{
+    width: 1120px;
+    height: 100%;
+}
+.right_icerik img{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+.right_metin{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+}
+.login-page{
+    position: absolute;
+    right: 0;
+    top: 20px;
+    height: 70px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.login-page input{
+    margin-right: 2rem;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.login-page button{
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.register-page{
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    top:200px;
+    height: 700px;
+    background-color:rgb(0, 168, 132);
+}
+.register-form{
+    height: 80%;
+    width: 60%;
+    
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+   
+}
+.register-form input{
+    position: absolute;
+    left: 60%;
+    font-size: 20px;
+    margin-bottom: 1rem;
+    height: 30px;
+    font-weight: bold;
+ 
+}
+.register-form span{
+   font-size: 30px;
+    position: relative;
+    
+}
+.register-form button{
+    height: 30px;
+    width: 150px;
+    position: absolute;
+    left: 60%;
+    cursor: pointer;
+    font-weight: bold;
+}
+.register-text{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    left: 10%;
+    top:10%;
+    text-align: center;
+    font-size: 50px;
+}
+.hesabim-page{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hesabim-bilgiler input{
+    display: block;
+    position: relative;
+    bottom:100px;
+    left: 200px;
+    height: 40px;
+    width: 200px;
+    background-color: transparent;
+    border-bottom:1px solid black;
+}
+.hesabim-bilgiler button{
+    position: relative;
+    left:200px;
+    bottom:100px;
+    background-color: rgb(0, 168, 132);
+    height: 40px;
+    width: 100px;
+    color:white;
+}
+.arkadas-istekleri-page form{
+    margin-top: 1rem;
+    
+}
+.arkadas-istekleri-page{
+    height: 400px;
+    overflow-y: auto;
+}
+.arkadas-istekleri{
+    width: 100%;
+    height: 500px;
+    overflow-y: auto;
+}
